@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mythily.Y | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Mythily.Y</h1>
+    <h2>Department of Computer Application</h2>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am <strong>Mythily.Y</strong> from the Department of Computer Application.  
+        I have completed my schooling in <strong>Govt Hr Sec School, Kasinayakanpatti</strong>.  
+        My hobbies are listening to songs, and I am very interested in history and other country cultures.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Here you can showcase your academic or personal projects.</p>
+      <button class="btn" onclick="showMessage()">See Demo Project</button>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:mythily@example.com">mythily@example.com</a></p>
+      <p>Phone: +91 9876543210</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Mythily.Y | Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
